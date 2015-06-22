@@ -37,4 +37,4 @@ data["alipay_token"] = alipay.create_pay_url()
 <br>
 网上也有很多其他示例，仅供参考!
 <br>
-欢迎关注我的主页 http://0kai.net
+代码解释，可参照我的博客：http://0kai.net/blog/?id=39
