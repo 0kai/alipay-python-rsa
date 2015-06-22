@@ -12,6 +12,13 @@ ALIPAY_NOTIFY_URL = "http://your.web.com/j_AlipayNotify/"
 ALIPAY_SELLER_ID = ALIPAY_PARTNER
 ```
 
+替换rsa密匙key，使用openssl生成
+```python
+rsa_private_key.pem #私匙
+rsa_public_key.pem #公匙
+rsa_publick_key_ali.pem #阿里云的公匙
+```
+
 获取签名
 ```python
 alipay = Alipay(order.trade_no, subject, body, total_fee)
